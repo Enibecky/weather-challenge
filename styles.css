@@ -43,6 +43,7 @@ a {
 
 main {
   padding: 30px 0;
+  height: auto;
 }
 
 .weather-app-data {
@@ -86,9 +87,9 @@ main {
 
 footer {
   border-bottom: 1px solid #f9f7fe;
-  padding: 30px 0 0 0;
   text-align: center;
   font-size: 13px;
+  padding: 30px 0 0 0 ;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -102,24 +103,6 @@ footer {
 }
 .weather-forecast{
   margin-top: 10px;
-  display: flex;
   text-align: center;
-
-}
-.col-2{
-  padding: 0 30px 0 0;
-}
-.weather-forcast-temp{
-  font-size: 13px;
-}
-.weather-forecast-date{
- opacity: 0.8;
- padding-bottom: 5px;
-}
-.weather-forcast-temp{
-  padding-top: 10px;
-}
-.min-temp{
-  opacity: 0.8;
 
 }
